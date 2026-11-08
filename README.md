@@ -66,11 +66,9 @@ Validation error analysis for the selected model found 13 false negatives and 6 
 
 ```text
 .
-├── data/
-│   ├── segments.csv
-│   └── dataset.csv
-├── notebooks/
-│   └── OPS_SAT_AD_reproducible_audit.ipynb
+├── segments.csv
+├── dataset.csv
+├── OPS_SAT_AD_reproducible_audit.ipynb
 ├── requirements.txt
 ├── CITATION.cff
 ├── LICENSE
