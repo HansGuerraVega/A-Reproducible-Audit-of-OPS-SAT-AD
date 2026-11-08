@@ -1,0 +1,49 @@
+# This CITATION.cff describes this repository.
+# Replace the bracketed placeholders (author, repository URL, date) before publishing.
+cff-version: 1.2.0
+title: >-
+  A Reproducible Audit of OPS-SAT-AD: Evaluating Data Preparation
+  Choices for Telemetry Anomaly Detection
+message: >-
+  If you use this software, please cite it using the metadata provided here,
+  and cite the OPS-SAT-AD dataset via its Zenodo record.
+type: software
+authors:
+  - family-names: "[Your family name]"
+    given-names: "[Your given name]"
+version: 1.0.0
+date-released: "2026-11-07"
+license: MIT
+repository-code: "https://github.com/[your-username]/ops-sat-ad-reproducible-audit"
+keywords:
+  - anomaly detection
+  - satellite telemetry
+  - OPS-SAT
+  - reproducibility
+  - machine learning
+references:
+  - type: dataset
+    title: >-
+      OPSSAT-AD - anomaly detection dataset for satellite telemetry
+    authors:
+      - family-names: Ruszczak
+        given-names: Bogdan
+    year: 2024
+    doi: 10.5281/zenodo.15108715
+    url: https://zenodo.org/records/15108715
+    license: CC-BY-4.0
+  - type: article
+    title: >-
+      The OPS-SAT benchmark for detecting anomalies in satellite telemetry
+    authors:
+      - family-names: Ruszczak
+        given-names: Bogdan
+      - family-names: Kotowski
+        given-names: Krzysztof
+      - family-names: Evans
+        given-names: David
+      - family-names: Nalepa
+        given-names: Jakub
+    year: 2025
+    doi: 10.1038/s41597-025-05035-3
+    url: https://arxiv.org/abs/2407.04730
